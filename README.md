@@ -45,15 +45,14 @@ Microsoft.Extensions.Configuration	Configuration loading
 Microsoft.Extensions.Configuration.Json	Read from appsettings.json
 Microsoft.Extensions.Configuration.Binder	Map config to POCO class
 
-<<<<<<< HEAD
-Install packages with unsing Nuget-Solution:
+# Install packages with unsing Nuget-Solution:
 Install packages with:
 dotnet add package Newtonsoft.Json
 dotnet add package Microsoft.Extensions.Configuration
 dotnet add package Microsoft.Extensions.Configuration.Json
 dotnet add package Microsoft.Extensions.Configuration.Binder
-<<<<<<< HEAD
-How to Run
+
+# How to Run
 1. Run the Node.js Server (main.js)
 Located in NodeServer/main.js
 
