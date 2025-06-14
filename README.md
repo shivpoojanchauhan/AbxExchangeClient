@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 # AbxExchangeClient
-685607e (Initial commit)
 This document provides a specification for developers who want to code a client to interact with the ABX mock exchange server. The ABX server simulates a stock exchange environment and allows clients to request data related to the order book.
 # 📈 ABX Exchange Client
 
 This project is a TCP client built using C# (.NET 8) that connects to a Node.js-based stock exchange server. It:
-
 - Streams real-time stock ticker packets.
 - Detects missing sequences.
 - Requests retransmission (Call Type 2).
@@ -38,7 +35,8 @@ Edit the `appsettings.json` file to update host, port, and packet size:
     "PacketSize": 17
   }
 }
-📦 NuGet Packages Used
+
+# 📦 NuGet Packages Used
 Package Name	Purpose
 Newtonsoft.Json	Serialize packets to output.json
 Microsoft.Extensions.Configuration	Configuration loading
@@ -56,7 +54,7 @@ dotnet add package Microsoft.Extensions.Configuration.Binder
 1. Run the Node.js Server (main.js)
 Located in NodeServer/main.js
 
-Run main.js via VS Code
+# Run main.js via VS Code
 Open main.js in VS Code.
-Go to: Run > Run Without Debugging
+1. Go to: Run > Run Without Debugging
 
