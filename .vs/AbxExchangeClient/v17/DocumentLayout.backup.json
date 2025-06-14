@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Interviews\\AbxExchangeClient\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB50EA95-C07D-4B98-A1B5-A3F5C4853766}|AbxExchangeClient.csproj|d:\\interviews\\abxexchangeclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB50EA95-C07D-4B98-A1B5-A3F5C4853766}|AbxExchangeClient.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB50EA95-C07D-4B98-A1B5-A3F5C4853766}|AbxExchangeClient.csproj|d:\\interviews\\abxexchangeclient\\utilities\\packetparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB50EA95-C07D-4B98-A1B5-A3F5C4853766}|AbxExchangeClient.csproj|solutionrelative:utilities\\packetparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PacketParser.cs",
+              "DocumentMoniker": "D:\\Interviews\\AbxExchangeClient\\Utilities\\PacketParser.cs",
+              "RelativeDocumentMoniker": "Utilities\\PacketParser.cs",
+              "ToolTip": "D:\\Interviews\\AbxExchangeClient\\Utilities\\PacketParser.cs",
+              "RelativeToolTip": "Utilities\\PacketParser.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T21:30:07.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Interviews\\AbxExchangeClient\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Interviews\\AbxExchangeClient\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwCQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T17:26:01.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

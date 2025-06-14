@@ -1,0 +1,77 @@
+<<<<<<< HEAD
+# AbxExchangeClient
+=======
+﻿# AbxExchangeClient
+>>>>>>> 685607e (Initial commit)
+This document provides a specification for developers who want to code a client to interact with the ABX mock exchange server. The ABX server simulates a stock exchange environment and allows clients to request data related to the order book.
+# 📈 ABX Exchange Client
+
+This project is a TCP client built using C# (.NET 8) that connects to a Node.js-based stock exchange server. It:
+
+- Streams real-time stock ticker packets.
+- Detects missing sequences.
+- Requests retransmission (Call Type 2).
+- Writes the final ordered packet data to `output.json`.
+
+---
+
+## 📁 Project Structure
+
+AbxExchangeClient/
+├── AbxExchangeClient.csproj
+├── appsettings.json
+├── output.json ⬅️ Generated after successful run
+├── Program.cs
+├── Models/
+│ └── Packet.cs
+├── Utilities/
+│ └── PacketParser.cs
+├── Config/
+│ └── AbxExchangeSettings.cs
+└── NodeServer/
+└── main.js ⬅️ Node.js mock exchange server
+
+
+---
+
+## ⚙️ Configuration
+
+Edit the `appsettings.json` file to update host, port, and packet size:
+
+{
+  "AbxExchange": {
+    "Host": "127.0.0.1",
+    "Port": 3000,
+    "PacketSize": 17
+  }
+}
+📦 NuGet Packages Used
+Package Name	Purpose
+Newtonsoft.Json	Serialize packets to output.json
+Microsoft.Extensions.Configuration	Configuration loading
+Microsoft.Extensions.Configuration.Json	Read from appsettings.json
+Microsoft.Extensions.Configuration.Binder	Map config to POCO class
+
+<<<<<<< HEAD
+Install packages with unsing Nuget-Solution:
+=======
+Install packages with:
+>>>>>>> 685607e (Initial commit)
+
+dotnet add package Newtonsoft.Json
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.Extensions.Configuration.Binder
+
+How to Run
+1. Run the Node.js Server (main.js)
+Located in NodeServer/main.js
+
+ Run main.js via VS Code
+Open main.js in VS Code.
+
+<<<<<<< HEAD
+Go to: Run > Run Without Debugging
+=======
+Go to: Run > Run Without Debugging
+>>>>>>> 685607e (Initial commit)
