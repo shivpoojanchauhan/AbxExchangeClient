@@ -43,7 +43,7 @@ Edit the `appsettings.json` file to update host, port, and packet size:
 - Microsoft.Extensions.Configuration.Json	Read from appsettings.json
 - Microsoft.Extensions.Configuration.Binder	Map config to POCO class
 
-# Install packages with unsing Nuget-Solution:
+# Install packages with using Nuget-Solution:
 Install packages with:
 - dotnet add package Newtonsoft.Json
 - dotnet add package Microsoft.Extensions.Configuration
