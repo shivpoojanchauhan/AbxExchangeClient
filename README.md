@@ -1,8 +1,7 @@
 <<<<<<< HEAD
 # AbxExchangeClient
-=======
-﻿# AbxExchangeClient
->>>>>>> 685607e (Initial commit)
+# AbxExchangeClient
+685607e (Initial commit)
 This document provides a specification for developers who want to code a client to interact with the ABX mock exchange server. The ABX server simulates a stock exchange environment and allows clients to request data related to the order book.
 # 📈 ABX Exchange Client
 
@@ -13,9 +12,7 @@ This project is a TCP client built using C# (.NET 8) that connects to a Node.js-
 - Requests retransmission (Call Type 2).
 - Writes the final ordered packet data to `output.json`.
 
----
-
-## 📁 Project Structure
+# 📁 Project Structure
 
 AbxExchangeClient/
 ├── AbxExchangeClient.csproj
@@ -30,9 +27,6 @@ AbxExchangeClient/
 │ └── AbxExchangeSettings.cs
 └── NodeServer/
 └── main.js ⬅️ Node.js mock exchange server
-
-
----
 
 ## ⚙️ Configuration
 
@@ -52,7 +46,7 @@ Microsoft.Extensions.Configuration	Configuration loading
 Microsoft.Extensions.Configuration.Json	Read from appsettings.json
 Microsoft.Extensions.Configuration.Binder	Map config to POCO class
 
-<<<<<<< HEAD
+ HEAD
 Install packages with unsing Nuget-Solution:
 =======
 Install packages with:
@@ -70,8 +64,6 @@ Located in NodeServer/main.js
  Run main.js via VS Code
 Open main.js in VS Code.
 
-<<<<<<< HEAD
-Go to: Run > Run Without Debugging
-=======
+HEAD
 Go to: Run > Run Without Debugging
 >>>>>>> 685607e (Initial commit)
