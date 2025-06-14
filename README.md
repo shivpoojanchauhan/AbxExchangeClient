@@ -38,17 +38,17 @@ Edit the `appsettings.json` file to update host, port, and packet size:
 
 # 📦 NuGet Packages Used
 ------Package Name	---------Purpose
--Newtonsoft.Json	Serialize packets to output.json
--Microsoft.Extensions.Configuration	Configuration loading
--Microsoft.Extensions.Configuration.Json	Read from appsettings.json
--Microsoft.Extensions.Configuration.Binder	Map config to POCO class
+- Newtonsoft.Json	Serialize packets to output.json
+- Microsoft.Extensions.Configuration	Configuration loading
+- Microsoft.Extensions.Configuration.Json	Read from appsettings.json
+- Microsoft.Extensions.Configuration.Binder	Map config to POCO class
 
 # Install packages with unsing Nuget-Solution:
 Install packages with:
--dotnet add package Newtonsoft.Json
--dotnet add package Microsoft.Extensions.Configuration
--dotnet add package Microsoft.Extensions.Configuration.Json
--dotnet add package Microsoft.Extensions.Configuration.Binder
+- dotnet add package Newtonsoft.Json
+- dotnet add package Microsoft.Extensions.Configuration
+- dotnet add package Microsoft.Extensions.Configuration.Json
+- dotnet add package Microsoft.Extensions.Configuration.Binder
 
 # How to Run
 1. Run the Node.js Server (main.js)
