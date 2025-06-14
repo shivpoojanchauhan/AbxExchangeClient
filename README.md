@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 # AbxExchangeClient
-# AbxExchangeClient
 685607e (Initial commit)
 This document provides a specification for developers who want to code a client to interact with the ABX mock exchange server. The ABX server simulates a stock exchange environment and allows clients to request data related to the order book.
 # 📈 ABX Exchange Client
@@ -28,7 +27,7 @@ AbxExchangeClient/
 └── NodeServer/
 └── main.js ⬅️ Node.js mock exchange server
 
-## ⚙️ Configuration
+# ⚙️ Configuration
 
 Edit the `appsettings.json` file to update host, port, and packet size:
 
@@ -46,12 +45,9 @@ Microsoft.Extensions.Configuration	Configuration loading
 Microsoft.Extensions.Configuration.Json	Read from appsettings.json
 Microsoft.Extensions.Configuration.Binder	Map config to POCO class
 
- HEAD
+HEAD
 Install packages with unsing Nuget-Solution:
-=======
 Install packages with:
->>>>>>> 685607e (Initial commit)
-
 dotnet add package Newtonsoft.Json
 dotnet add package Microsoft.Extensions.Configuration
 dotnet add package Microsoft.Extensions.Configuration.Json
@@ -61,9 +57,7 @@ How to Run
 1. Run the Node.js Server (main.js)
 Located in NodeServer/main.js
 
- Run main.js via VS Code
+Run main.js via VS Code
 Open main.js in VS Code.
-
-HEAD
 Go to: Run > Run Without Debugging
->>>>>>> 685607e (Initial commit)
+
