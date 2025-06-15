@@ -8,7 +8,7 @@ This project is a TCP client built using C# (.NET 8) that connects to a Node.js-
 - Requests retransmission (Call Type 2).
 - Writes the final ordered packet data to `output.json`.
 
-# 📁 Project Structure
+# 📁 Project Structure:
 
 ```text
 AbxExchangeClient/
@@ -26,10 +26,10 @@ AbxExchangeClient/
     └── main.js ⬅️ Node.js mock exchange server
 ```
 
-# ⚙️ Configuration
+# ⚙️ Configuration:
 
-Edit the `appsettings.json` file to update host, port, and packet size:
-
+You can modify the appsettings.json file to configure the host, port, and packet size according to your system's specific host address, port number, and desired packet size.
+```text
 {
   "AbxExchange": {
     "Host": "127.0.0.1",
@@ -37,13 +37,13 @@ Edit the `appsettings.json` file to update host, port, and packet size:
     "PacketSize": 17
   }
 }
-
-# 📦 NuGet Packages Used
-------Package Name	---------Purpose
-- Newtonsoft.Json	Serialize packets to output.json
-- Microsoft.Extensions.Configuration	Configuration loading
-- Microsoft.Extensions.Configuration.Json	Read from appsettings.json
-- Microsoft.Extensions.Configuration.Binder	Map config to POCO class
+```
+# 📦 NuGet Packages Used:
+  Package Name	                             Purpose
+1. Newtonsoft.Json                            Serialize packets to output.json
+2. Microsoft.Extensions.Configuration	      Configuration loading
+3. Microsoft.Extensions.Configuration.Json	  Read from appsettings.json
+4. Microsoft.Extensions.Configuration.Binder  Map config to POCO class
 
 # Install packages with using Nuget-Solution:
 Install packages with:
@@ -52,7 +52,7 @@ Install packages with:
 - dotnet add package Microsoft.Extensions.Configuration.Json
 - dotnet add package Microsoft.Extensions.Configuration.Binder
 
-# How to Run
+# How to Run:
 
 1. Launch main.js in Visual Studio Code.
 2. Navigate to Run > Run Without Debugging.
