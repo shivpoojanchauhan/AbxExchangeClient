@@ -6,7 +6,7 @@ This project is a TCP client built using C# (.NET 8) that connects to a Node.js-
 - Streams real-time stock ticker packets.
 - Detects missing sequences.
 - Requests retransmission (Call Type 2).
-- Writes the final ordered packet data to `output.json` in application root directory.
+- Writes the final ordered packet data to `output.json` in `AbxExchangeClient` application root directory.
 
 # 📁 Project Structure:
 
