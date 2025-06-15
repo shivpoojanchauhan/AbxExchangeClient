@@ -10,19 +10,20 @@ This project is a TCP client built using C# (.NET 8) that connects to a Node.js-
 
 # 📁 Project Structure
 
+```text
 AbxExchangeClient/
 ├── AbxExchangeClient.csproj
 ├── appsettings.json
 ├── output.json ⬅️ Generated after successful run
 ├── Program.cs
 ├── Models/
-│ └── Packet.cs
+│   └── Packet.cs
 ├── Utilities/
-│ └── PacketParser.cs
+│   └── PacketParser.cs
 ├── Config/
-│ └── AbxExchangeSettings.cs
+│   └── AbxExchangeSettings.cs
 └── NodeServer/
-└── main.js ⬅️ Node.js mock exchange server
+    └── main.js ⬅️ Node.js mock exchange server
 
 # ⚙️ Configuration
 
