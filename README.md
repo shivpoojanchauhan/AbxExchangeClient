@@ -47,7 +47,7 @@ You can modify the appsettings.json file to configure the host, port, and packet
 | `Microsoft.Extensions.Configuration.Json`| Read settings from `appsettings.json`        |
 | `Microsoft.Extensions.Configuration.Binder` | Bind configuration values to POCO classes |
 
-# Install packages with using Nuget-Solution:
+# Install packages with using Nuget Package Manager:
 Install packages with:
 - dotnet add package Newtonsoft.Json
 - dotnet add package Microsoft.Extensions.Configuration
