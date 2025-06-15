@@ -38,12 +38,14 @@ You can modify the appsettings.json file to configure the host, port, and packet
   }
 }
 ```
-# 📦 NuGet Packages Used:
-  Package Name	                             Purpose
-1. Newtonsoft.Json                            Serialize packets to output.json
-2. Microsoft.Extensions.Configuration	      Configuration loading
-3. Microsoft.Extensions.Configuration.Json	  Read from appsettings.json
-4. Microsoft.Extensions.Configuration.Binder  Map config to POCO class
+### 📦 NuGet Packages Used
+
+| Package Name                             | Purpose                                      |
+|------------------------------------------|----------------------------------------------|
+| `Newtonsoft.Json`                        | Serialize packet data to `output.json`       |
+| `Microsoft.Extensions.Configuration`     | Load and manage application configuration    |
+| `Microsoft.Extensions.Configuration.Json`| Read settings from `appsettings.json`        |
+| `Microsoft.Extensions.Configuration.Binder` | Bind configuration values to POCO classes |
 
 # Install packages with using Nuget-Solution:
 Install packages with:
