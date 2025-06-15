@@ -21,9 +21,8 @@ AbxExchangeClient/
 ├── Utilities/
 │   └── PacketParser.cs
 ├── Config/
-│   └── AbxExchangeSettings.cs
-└── NodeServer/
-    └── main.js ⬅️ Node.js mock exchange server
+    └── AbxExchangeSettings.cs
+
 ```
 
 # ⚙️ Configuration:
