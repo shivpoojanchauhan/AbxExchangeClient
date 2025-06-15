@@ -24,7 +24,7 @@ AbxExchangeClient/
 │   └── AbxExchangeSettings.cs
 └── NodeServer/
     └── main.js ⬅️ Node.js mock exchange server
-```text
+```
 
 # ⚙️ Configuration
 
