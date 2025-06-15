@@ -51,10 +51,7 @@ Install packages with:
 - dotnet add package Microsoft.Extensions.Configuration.Binder
 
 # How to Run
-1. Run the Node.js Server (main.js)
-Located in NodeServer/main.js
 
-# Run main.js via VS Code
-Open main.js in VS Code.
-1. Go to: Run > Run Without Debugging
-
+1. Launch main.js in Visual Studio Code.
+2. Navigate to Run > Run Without Debugging.
+3. Execute the .NET console application in debug mode and observe the output displayed in the .NET command console
