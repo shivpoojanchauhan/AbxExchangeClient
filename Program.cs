@@ -7,14 +7,6 @@ using Microsoft.Extensions.Configuration;
 
 class Program
 {
-
-//    const int PORT = 3000;
-//    const string HOST = "127.0.0.1";
-//    const int PACKET_SIZE = 17;
-
-    /// <summary>
-    /// Main Method
-    /// </summary>
     static void Main()
     {
         // Load configuration
